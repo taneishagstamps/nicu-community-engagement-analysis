@@ -1,4 +1,24 @@
-## NICU Community Engagement Analysis
+# NICU Community Engagement Analysis
+
+## **Table of Contents**
+
+[Project Background](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#project-background)
+
+[Executive Summary](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#project-background)
+
+[Insights Deep Dive](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#project-background)
+- [User Engagement Trends](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#user-engagement-trends)
+- [Hospital & Email Verification Impact](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#hospital--email-verification-impact)
+- [Churn and Retention Patterns](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#churn-and-retention-patterns)
+- [User Onboarding & Early Engagement](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#user-onboarding--early-engagement)
+- [Engagement Dynamics](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#engagement-dynamics)
+
+[Recommendations](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#project-background)
+
+[Clarifying Questions, Assumptions, and Caveats](https://github.com/taneishagstamps/nicu-community-engagement-analysis/edit/main/README.md#clarifying-questions)
+
+
+#
 
 ## Project Background
 
@@ -111,3 +131,8 @@ This project supports program strategy by identifying which user segments stay e
 - Churn calculations assume a user is “lost” if they do not meet 30/60/90-day retention flags — this may not apply to users who return sporadically or use the app for brief periods during NICU stays.
 - Several key fields like nicu_year, state, and user_type are frequently blank, limiting their use in demographic or geo-segmented analyses.
 - The dataset includes only explicit engagement metrics (likes, posts, comments) and lacks session data or time-on-platform, which can undervalue the presence of silent but returning users.
+#
+
+- See the raw data and my cleaning, analysis, and pivot tables in the Excel workbook.
+- See my SQL queries in the SQL file.
+
